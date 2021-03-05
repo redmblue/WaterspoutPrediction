@@ -29,7 +29,7 @@ public class GetWeather {
 	    	//"https://api.weather.gov/stations/KMCD/observations/2020-12-26T23:15:00+00:00"
 	        //String httpsURL = "https://api.weather.gov/stations/KMCD/observations/2020-3-16T13:27:00+00:00";
 	    	String httpsURL = "https://api.weather.gov/stations/KMCD/observations/2020-12-26T23:15:00+00:00";
-	    	String FILENAME = "C:\\Users\\Daniel\\eclipse-workspace\\WaterSpout Prediction\\src\\wundergroundstuff\\temp.txt";
+	    	String FILENAME = "C:\\Users\\{User}\\eclipse-workspace\\WaterSpout Prediction\\src\\wundergroundstuff\\temp.txt";
 	        BufferedWriter bw = new BufferedWriter(new FileWriter(FILENAME));
 	        URL myurl = new URL(httpsURL);
 	        HttpsURLConnection con = (HttpsURLConnection) myurl.openConnection();
